@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rukundo Tours & Taxi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    🚖 Rukundo Tours & Taxi
+  </header>
+
+  <!-- MAIN CONTENT START -->
+  <main class="content">
+
+    <!-- 1. TRAVEL MENU -->
+    <ul class="travel-info">
+      <li>✈️ Airport Pick-Up</li>
+      <li>🚖 Local Travel</li>
+      <li>🚞 Out-of-City Trips</li>
+      <li>🛒 Essential Shopping Support</li>
+    </ul>
+
+    <!-- 2. TRAVEL TEXT -->
+    <div class="travel-message">
+      <h1>Always Remember...</h1>
+      <p>Your privacy is essential.  
+      I respect the confidentiality of your information.</p>
+      <p>You're my passenger.  
+      You are in safe hands.</p>
+    </div>
+
+    <div class="image-grid">
+       <img src="./car1.png" class="grid-img enlargeable" alt="Taxi Car 1">
+       <img src="./car13.jpeg" class="grid-img enlargeable" alt="Taxi Car 2">
+    </div>
+
+    <!-- 5. FIXED WORDS -->
+    <div class="fixed-words">
+      <h2>Ride in Comfort</h2>
+      <h2>Always On Time</h2>
+      <h2>Explore Beautiful Rwanda</h2>
+      <h2>VIP Travel Experience</h2>
+    </div>
+    <button class="big-book-btn" id="bookNowMain">
+      BOOK NOW
+    </button>
+    <div class="image-grid">
+      <img src="./car3.jpeg" class="grid-img enlargeable" alt="Ad 1">
+      <img src="./car77.png" class="grid-img enlargeable" alt="Ad 2">
+    </div>
+  
+    <!-- 9. CAR DESCRIPTION PARAGRAPHS -->
+    <div class="car-desc">
+      <p>Our taxi service offers you comfort, safety and reliability.</p>
+      <p>Whether you are traveling within Kigali or outside the city,  
+      we guarantee a smooth and enjoyable journey.</p>
+      <p>We also have free WFI and Air-coditinal within our Taxi,</p>
+      <p>for better communnication we speak <br> English, French, Kiswahili, and Kinyarwanda.</speak:br></p>
+    </div>
+
+    <!-- 10. LOCATION HEADER -->
+    <h2 class="location-header">Kigali, Rwanda</h2>
+    <h2 class="location-header">Welcome!</h2>
+
+    <section class="booking-form">
+      <h2 class="book">BOOK YOUR RIDE</h2>
+      <form id="taxiForm">
+
+         <label>Full Name</label>
+         <input type="text" id="name" placeholder="Enter your full name" required>
+
+         <label>Email</label>
+         <input type="email" id="email" placeholder="Enter your email" required>
+   
+         <label>Phone Number</label>
+         <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+         <label>Pickup Location</label>
+         <input type="text" id="from" placeholder="Where should we pick you?" required>
+
+         <label>Destination</label>
+         <input type="text" id="to" placeholder="Where do you want to go?" required>
+
+         <label>Date</label>
+         <input type="date" id="date" required>
+
+         <label>Pickup Time</label>
+         <input type="time" id="time" required>
+
+         <button type="submit" id="whatsappBtn">
+         📞 WhatsApp Booking
+         </button>
+
+         <button type="button" id="instagramBtn">
+          📸 Instagram
+         </button>
+
+         <button type="button" id="emailBtn">
+         📧 Email
+         </button>
+
+        </form>
+    </section>
+
+    <!-- MORE INFO BUTTON (shows gallery below) -->
+    <div style="text-align:center; margin-top:1rem;">
+      <button id="showMoreBtn" class="more-btn">MORE INFO ▼</button>
+    </div>
+
+    <!-- EXTRA PHOTOS SLIDE (hidden by default; JS will toggle) -->
+    <div id="moreImages" aria-hidden="true">
+      <div class="gallery">
+        <img src="./goril.jpeg" class="mi-img enlargeable" alt="car1">
+        <img src="./hh.jpeg" class="mi-img enlargeable" alt="car1">
+        <img src="./canopy.jpeg" class="mi-img enlargeable" alt="car1">
+        <img src="./car9.jpeg" class="mi-img enlargeable" alt="car1">
+        <img src="./car1.png" class="mi-img enlargeable" alt="car1">
+        <img src="./tt.jpeg" class="mi-img enlargeable" alt="car13">
+        <img src="./ad1.jpeg" class="mi-img enlargeable" alt="ad1">
+        <img src="./ad2.png" class="mi-img enlargeable" alt="ad2">
+        <img src="./nn.png" class="mi-img enlargeable" alt="nn">
+        <img src="./car11.jpeg" class="mi-img enlargeable" alt="car11">
+        <img src="./car8.jpeg" class="mi-img enlargeable" alt="car8">
+        <img src="./xx.jpeg" class="mi-img enlargeable" alt="zz">
+        <img src="./zz.jpeg" class="mi-img enlargeable" alt="car4">
+        <img src="./ad4.jpeg" class="mi-img enlargeable" alt="car4">
+        <img src="./caro.jpeg" class="mi-img enlargeable" alt="car4">
+        <img src="./care.jpeg" class="mi-img enlargeable" alt="car4">
+
+      </div>
+    </div>
+
+  </main>
+  <!-- MAIN CONTENT END -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>
