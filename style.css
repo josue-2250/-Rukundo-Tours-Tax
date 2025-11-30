@@ -9,9 +9,9 @@
 /* DARK BACKGROUND */
 body {
   background-image: url('plan.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  /* background-size: cover; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
   color: white;
   font-size: 18px;
   font-weight: 600;
